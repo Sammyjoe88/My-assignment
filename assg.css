@@ -1,0 +1,100 @@
+body {
+	margin: 0 auto;
+	padding: 0px;
+	background: #032664;
+}
+
+* {
+	box-sizing: border-box;
+}
+nav{
+	background: #3396FF;
+	height: 50px;
+	padding-top: 5px;
+}
+nav ul li{
+	display: inline-block;
+	padding-left: 20px;
+
+}
+header ul li{
+	display: inline-block;
+	position: relative;
+}
+header > ul > li:nth-child(2) {
+	float: right;
+	padding-right: 200px;
+	padding-top: 10px;
+}
+
+#hd1, #hd3{
+	color: #FFF;
+}
+
+#txt, h4 {
+	color: #22BBEE;
+}
+aside ul li {
+	color: #FFF;
+	list-style-type: none;
+	height: 40px;
+	padding-right: 30px;
+}
+
+.side {
+	border-radius: 10px;
+	border: 3px solid #22BBEE;
+	background: #3396FF;
+	float: left;
+	margin-left: 15px;
+}
+
+.wrapper {
+	border: 5px solid #22BBEE;
+	background: #FFF;
+	color: #000;
+	border-radius: 10px;
+	margin-left: 300px;
+	margin-right: 50px;
+	margin-top: 15px;
+	padding: 5px 10px;
+	background-image: url(imgs/webimg.jpeg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.Container {
+	border: 5px solid #22BBEE;
+	background: #FFF;
+	color: #000;
+	border-radius: 10px;
+	margin-left: 300px;
+	margin-right: 50px;
+	margin-top: 15px;
+	padding: 5px 10px;
+}
+p {
+	text-align: left;
+	text-align: justify-all;
+}
+
+h3 {
+	color: #014CC4;
+}
+
+table tr th {
+	color: #22BBEE;
+	text-align: left;
+}
+
+table tr td {
+	padding-right: 50px;
+}
+
+
+
+
+
+
+
+
